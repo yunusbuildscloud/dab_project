@@ -1,5 +1,5 @@
 # dab_project
-Welcome to the repository for the Udemy course `CI/CD with Databricks Asset Bundles`. This repository serves as a supplementary resource, specifically providing project files used in the course.
+Welcome to the repository for the Udemy course `CI/CD with Databricks Asset Bundles`. This repository serves as a supplementary resource, specifically providing project files used in the course..
 
 ## Wiki
 This repository contains a [wiki](https://github.com/pathfinder-analytics-uk/dab_project/wiki) with project code and yaml configuration snippets for specific lectures.
