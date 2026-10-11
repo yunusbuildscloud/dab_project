@@ -1,0 +1,30 @@
+variables:
+#  all_purpose_cluster_id:
+#    lookup:
+#      cluster: "Yunus's Cluster 2026-10-01 08:53:02"
+  D4ds_v4_sn:
+    type: "complex"
+    default:
+      cluster_name: ""
+      spark_version: 18.x-scala2.13
+      azure_attributes:
+        first_on_demand: 1
+        spot_bid_max_price: -1
+      node_type_id: Standard_D4ds_v4
+      data_security_mode: DATA_SECURITY_MODE_AUTO
+      runtime_engine: STANDARD
+      kind: CLASSIC_PREVIEW
+      is_single_node: true
+  F4_sn:
+    type: "complex"
+    default:
+      cluster_name: ""
+      spark_version: 18.x-scala2.13
+      azure_attributes:
+        first_on_demand: 1
+        spot_bid_max_price: -1
+      node_type_id: Standard_D4ds_v4
+      data_security_mode: DATA_SECURITY_MODE_AUTO
+      runtime_engine: STANDARD
+      kind: CLASSIC_PREVIEW
+      is_single_node: true
