@@ -48,7 +48,7 @@ targets:
         default: false
       schema: prod
     permissions:
-      - user_name: yunusbuildscloud@gmail.com
+      - service_principal_name: 07bc5b0f-b130-479e-8c34-ee202d89d0b6
         level: CAN_MANAGE  
   prod:
     mode: production
@@ -63,5 +63,5 @@ targets:
         default: false
       schema: prod
     permissions:
-      - user_name: yunusbuildscloud@gmail.com
+      - service_principal_name: bc6f686a-9df3-4187-bae7-0f0e21f06376
         level: CAN_MANAGE
